@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93059852259DFD0700ECA655 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93059851259DFD0700ECA655 /* ProjectHeaderView.swift */; };
+		93059855259E22B200ECA655 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93059854259E22B200ECA655 /* Colors.xcassets */; };
+		93059858259E239C00ECA655 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93059857259E239C00ECA655 /* EditProjectView.swift */; };
 		9332D420259DF88B0035FF78 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332D41F259DF88B0035FF78 /* Binding-OnChange.swift */; };
 		933FDE1D259B465A00EEF5B0 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933FDE1C259B465A00EEF5B0 /* EditItemView.swift */; };
 		933FDE20259B4A2200EEF5B0 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933FDE1F259B4A2200EEF5B0 /* ItemRowView.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93059851259DFD0700ECA655 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		93059854259E22B200ECA655 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		93059857259E239C00ECA655 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		9332D41F259DF88B0035FF78 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		933FDE1C259B465A00EEF5B0 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		933FDE1F259B4A2200EEF5B0 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
@@ -56,6 +62,8 @@
 			children = (
 				93FB0B93259A0AEC00056CD5 /* ContentView.swift */,
 				933FDE1C259B465A00EEF5B0 /* EditItemView.swift */,
+				93059851259DFD0700ECA655 /* ProjectHeaderView.swift */,
+				93059857259E239C00ECA655 /* EditProjectView.swift */,
 				93705084259A34050019716E /* HomeView.swift */,
 				93CEFB5A259A349800C3D474 /* ProjectsView.swift */,
 				933FDE1F259B4A2200EEF5B0 /* ItemRowView.swift */,
@@ -85,13 +93,14 @@
 				93FB0B91259A0AEC00056CD5 /* UltimatePortfolioApp.swift */,
 				93705087259A340E0019716E /* Views */,
 				93FB0B95259A0AEC00056CD5 /* Assets.xcassets */,
+				93059854259E22B200ECA655 /* Colors.xcassets */,
 				93FB0B9A259A0AEC00056CD5 /* Info.plist */,
 				93FB0B97259A0AEC00056CD5 /* Preview Content */,
-				93FB0BA1259A0B7700056CD5 /* Main.xcdatamodeld */,
 				93EA206C259A71A600B774FD /* Item-CoreDataHelpers.swift */,
 				93EA206F259A728C00B774FD /* Project-CoreDataHelpers.swift */,
 				9370507F259A2AE20019716E /* DataController.swift */,
 				9332D41F259DF88B0035FF78 /* Binding-OnChange.swift */,
+				93FB0BA1259A0B7700056CD5 /* Main.xcdatamodeld */,
 			);
 			path = UltimatePortfolio;
 			sourceTree = "<group>";
@@ -161,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93059855259E22B200ECA655 /* Colors.xcassets in Resources */,
 				93FB0B99259A0AEC00056CD5 /* Preview Assets.xcassets in Resources */,
 				93FB0B96259A0AEC00056CD5 /* Assets.xcassets in Resources */,
 			);
@@ -174,8 +184,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				93CEFB5B259A349800C3D474 /* ProjectsView.swift in Sources */,
+				93059852259DFD0700ECA655 /* ProjectHeaderView.swift in Sources */,
 				93FB0BA3259A0B7700056CD5 /* Main.xcdatamodeld in Sources */,
 				93EA2070259A728C00B774FD /* Project-CoreDataHelpers.swift in Sources */,
+				93059858259E239C00ECA655 /* EditProjectView.swift in Sources */,
 				93705080259A2AE20019716E /* DataController.swift in Sources */,
 				933FDE20259B4A2200EEF5B0 /* ItemRowView.swift in Sources */,
 				93FB0B94259A0AEC00056CD5 /* ContentView.swift in Sources */,
