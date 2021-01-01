@@ -61,14 +61,26 @@
 			isa = PBXGroup;
 			children = (
 				93FB0B93259A0AEC00056CD5 /* ContentView.swift */,
-				933FDE1C259B465A00EEF5B0 /* EditItemView.swift */,
-				93059851259DFD0700ECA655 /* ProjectHeaderView.swift */,
-				93059857259E239C00ECA655 /* EditProjectView.swift */,
 				93705084259A34050019716E /* HomeView.swift */,
 				93CEFB5A259A349800C3D474 /* ProjectsView.swift */,
+				93059851259DFD0700ECA655 /* ProjectHeaderView.swift */,
+				93059857259E239C00ECA655 /* EditProjectView.swift */,
 				933FDE1F259B4A2200EEF5B0 /* ItemRowView.swift */,
+				933FDE1C259B465A00EEF5B0 /* EditItemView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		93899CFF259F73C0006B7A0B /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				93FB0BA1259A0B7700056CD5 /* Main.xcdatamodeld */,
+				93EA206C259A71A600B774FD /* Item-CoreDataHelpers.swift */,
+				93EA206F259A728C00B774FD /* Project-CoreDataHelpers.swift */,
+				9370507F259A2AE20019716E /* DataController.swift */,
+				9332D41F259DF88B0035FF78 /* Binding-OnChange.swift */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 		93FB0B85259A0AEC00056CD5 = {
@@ -92,15 +104,11 @@
 			children = (
 				93FB0B91259A0AEC00056CD5 /* UltimatePortfolioApp.swift */,
 				93705087259A340E0019716E /* Views */,
+				93899CFF259F73C0006B7A0B /* Core Data */,
 				93FB0B95259A0AEC00056CD5 /* Assets.xcassets */,
 				93059854259E22B200ECA655 /* Colors.xcassets */,
 				93FB0B9A259A0AEC00056CD5 /* Info.plist */,
 				93FB0B97259A0AEC00056CD5 /* Preview Content */,
-				93EA206C259A71A600B774FD /* Item-CoreDataHelpers.swift */,
-				93EA206F259A728C00B774FD /* Project-CoreDataHelpers.swift */,
-				9370507F259A2AE20019716E /* DataController.swift */,
-				9332D41F259DF88B0035FF78 /* Binding-OnChange.swift */,
-				93FB0BA1259A0B7700056CD5 /* Main.xcdatamodeld */,
 			);
 			path = UltimatePortfolio;
 			sourceTree = "<group>";

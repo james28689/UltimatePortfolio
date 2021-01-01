@@ -26,7 +26,7 @@ class DataController: ObservableObject {
     }
     
     static var preview: DataController = {
-       let dataController = DataController(inMemory: true)
+        let dataController = DataController(inMemory: true)
         let viewContext =  dataController.container.viewContext
         
         do {
