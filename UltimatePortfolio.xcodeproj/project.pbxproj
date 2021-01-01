@@ -15,6 +15,7 @@
 		933FDE20259B4A2200EEF5B0 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933FDE1F259B4A2200EEF5B0 /* ItemRowView.swift */; };
 		93705080259A2AE20019716E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9370507F259A2AE20019716E /* DataController.swift */; };
 		93705085259A34050019716E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93705084259A34050019716E /* HomeView.swift */; };
+		93899D03259FD97E006B7A0B /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93899D02259FD97D006B7A0B /* SelectSomethingView.swift */; };
 		93CEFB5B259A349800C3D474 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEFB5A259A349800C3D474 /* ProjectsView.swift */; };
 		93EA206D259A71A600B774FD /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA206C259A71A600B774FD /* Item-CoreDataHelpers.swift */; };
 		93EA2070259A728C00B774FD /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA206F259A728C00B774FD /* Project-CoreDataHelpers.swift */; };
@@ -34,6 +35,7 @@
 		933FDE1F259B4A2200EEF5B0 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		9370507F259A2AE20019716E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		93705084259A34050019716E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		93899D02259FD97D006B7A0B /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		93CEFB5A259A349800C3D474 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		93EA206C259A71A600B774FD /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		93EA206F259A728C00B774FD /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				93059857259E239C00ECA655 /* EditProjectView.swift */,
 				933FDE1F259B4A2200EEF5B0 /* ItemRowView.swift */,
 				933FDE1C259B465A00EEF5B0 /* EditItemView.swift */,
+				93899D02259FD97D006B7A0B /* SelectSomethingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				93CEFB5B259A349800C3D474 /* ProjectsView.swift in Sources */,
 				93059852259DFD0700ECA655 /* ProjectHeaderView.swift in Sources */,
 				93FB0BA3259A0B7700056CD5 /* Main.xcdatamodeld in Sources */,
+				93899D03259FD97E006B7A0B /* SelectSomethingView.swift in Sources */,
 				93EA2070259A728C00B774FD /* Project-CoreDataHelpers.swift in Sources */,
 				93059858259E239C00ECA655 /* EditProjectView.swift in Sources */,
 				93705080259A2AE20019716E /* DataController.swift in Sources */,
