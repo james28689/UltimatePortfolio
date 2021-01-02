@@ -86,6 +86,9 @@ struct EditProjectView: View {
     
     func delete() {
         dataController.delete(project)
+        for item in project.projectItems {
+            dataController.delete(item)
+        }
         presentationMode.wrappedValue.dismiss()
     }
 }
